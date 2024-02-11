@@ -14,7 +14,7 @@ class Database
 
     // Connection params
     private static string $host = "";
-    private static int $port = 3307;
+    private static int $port = 3306;
     private static ?string $dbName = null;
     private static string $charset = "utf8mb4";
     private static ?string $user = null;
@@ -148,9 +148,9 @@ class Database
     /**
      * Set the port used to connect to DB server
      *
-     * @param ?string $port (DEFAULT: utf8mb4)
+     * @param ?string $port (DEFAULT: 3306)
      */
-    public static function setPort(int $port = 3307)
+    public static function setPort(int $port = 3306)
     {
         self::$port = $port;
     }
