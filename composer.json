@@ -1,0 +1,31 @@
+{
+    "name": "ezrarieben/pdo-wrapper-singleton",
+    "type": "library",
+    "description": "A wrapper class written for PDO MySQL DB connections following the singleton pattern",
+    "keywords": [
+        "database",
+        "mysql",
+        "php",
+        "pdo",
+        "wrapper",
+        "wrapper-class",
+        "pdo-wrapper",
+        "pdo-mysql"
+    ],
+    "homepage": "https://github.com/ezrarieben/pdo-wrapper-singleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ezra Rieben",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ezrarieben\\PdoWrapperSingleton\\": "src/"
+        }
+    }
+}
